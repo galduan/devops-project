@@ -9,7 +9,7 @@ services:
   jenkins:
     image: jenkins/jenkins
     volumes:
-      - /Users/gldwn/devops-project/jenConfig:/var/jenkins_home
+      - /Users/gldwn/dev-proj-jenConfig/jenConfig:/var/jenkins_home
       - /Users/gldwn/devops-project:/home/webapps
     ports:
       - 8083:8080
