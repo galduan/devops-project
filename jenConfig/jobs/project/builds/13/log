@@ -20,3 +20,5 @@ Commit message: "docker"
  > git rev-list --no-walk 8cfedb48a2c835b85b7376d95a95a3ab0217f55d # timeout=10
 [workspace] $ /bin/sh -xe /tmp/jenkins4193017107927358655.sh
 + cp -r ./app /home/webapps/
+URL: http://192.168.1.35:8084/app/, response code: 200, status: UP
+Finished: SUCCESS
