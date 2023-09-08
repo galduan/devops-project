@@ -1,0 +1,25 @@
+Started by upstream project "[8mha:////4AN/nCAA58DcRyp2cpcxGwpgwcsNb+GpL4RfWAXOx1Q7AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3y1KTizJJU3dz8vMyS/CJ9AJr5ndfKAAAA[0mwebsite-monitor" build number [8mha:////4G9om/YF6T+0SBsOS3/wo7rjpCREyWj5VHVhs+Yx9njKAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JP3y1KTizJJU3dz8vMyS/CJ9IxMADyem1swAAAA=[0m24
+originally caused by:
+ Started by timer
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/project/workspace
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/jobs/project/workspace/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/galduan/devops-project.git # timeout=10
+Fetching upstream changes from https://github.com/galduan/devops-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/galduan/devops-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ef9b32b11791deb76544fae7aed4a2898e4f29f2 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ef9b32b11791deb76544fae7aed4a2898e4f29f2 # timeout=10
+Commit message: "docker"
+ > git rev-list --no-walk 8cfedb48a2c835b85b7376d95a95a3ab0217f55d # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins3869599443381707595.sh
++ cp -r ./app /home/webapps/
+URL: http://192.168.1.35:8084/app/, response code: 200, status: UP
+Finished: SUCCESS
