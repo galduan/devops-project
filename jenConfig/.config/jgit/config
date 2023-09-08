@@ -1,0 +1,3 @@
+[filesystem "Eclipse Adoptium|11.0.20|grpcfuse"]
+	timestampResolution = 46000 nanoseconds
+	minRacyThreshold = 0 nanoseconds

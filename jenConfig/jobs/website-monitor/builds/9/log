@@ -1,0 +1,21 @@
+Started by user [8mha:////4HVgPqJ9opTpYbAqeFSuCPVyYxyAiTjbrJ3KfPorWbXWAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL99MSclNLEPADxz+eMwgAAAA==[0mgal duan
+Running as SYSTEM
+Building in workspace /var/jenkins_home/jobs/website-monitor/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins1539701892943501070.sh
++ curl http://192.168.1.35:8084/app/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   208  100   208    0     0  10017      0 --:--:-- --:--:-- --:--:-- 10400
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greetings</title>
+</head>
+<body>
+    <h1>Welcome To The Best Project! We Are Gal And Maxim!</h1>
+    <p>Current time: Fri Sep 08 12:49:57 UTC 2023</p>
+</body>
+</html>
+URL: http://192.168.1.35:8084/app/, response code: 200, status: UP
+Triggering a new build of [8mha:////4BvKWko5C7sCjgEsM+m9e0l995HwhVHIdGkgVBawcgzDAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2Covys1OQSfQCbjBdrwgAAAA==[0mproject
+Finished: SUCCESS
